@@ -3,10 +3,15 @@ package seedu.address.model.person;
 import static java.util.Objects.requireNonNull;
 
 public class Remark {
-    public final String value;
 
     public static final String MESSAGE_CONSTRAINTS = "Remark can take any values, and it should not be blank";
+    public final String value;
 
+
+    /**
+     * Constructor for a remark
+     * @param remark
+     */
     public Remark(String remark) {
         requireNonNull(remark);
         value = remark;

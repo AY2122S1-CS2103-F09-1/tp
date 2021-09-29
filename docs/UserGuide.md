@@ -72,6 +72,23 @@ Shows a message explaning how to access the help page.
 
 Format: `help`
 
+### Create a new student: `student add`
+
+Create a new student
+
+Format: `student add <student id>, <student name>, <student teleHandle>, <student email>`
+
+Examples: 
+* `student add A0123456A, John Doe, @johndoe, john.doe@u.nus.edu`: add student John Doe
+
+### Get student information: `student get`
+
+Get the student’s information (name, id, telehandle, email)
+
+Format: `student get <student id>`
+
+Examples:
+* `student get A0123456A`: get information of the student with student id A0123456A
 
 ### Adding a person: `add`
 

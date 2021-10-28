@@ -10,11 +10,11 @@ public abstract class AddCommand extends Command {
 
     public static final String COMMAND_WORD = "add";
 
-    public static final String MESSAGE_SUCCESS = "New student added: %1$s";
+    public static final String MESSAGE_SUCCESS = "New %1$s added: %2$s";
     public static final String MESSAGE_USAGE = COMMAND_WORD
             + ": Add either a module, a student or a task\n"
             + "Parameters: Add_Type (can be module, student or task)\n"
-            + "Example: " + COMMAND_WORD + " module (...additional parameters)";
+            + "Example: " + COMMAND_WORD + " module m/CS2103";
 
     @Override
     public abstract CommandResult execute(Model model) throws CommandException;

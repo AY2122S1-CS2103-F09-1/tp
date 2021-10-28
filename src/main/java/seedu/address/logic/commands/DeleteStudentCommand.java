@@ -27,7 +27,7 @@ public class DeleteStudentCommand extends DeleteCommand {
             + ": Deletes the student identified by the student id from the module specified.\n"
             + "Parameters: "
             + PREFIX_MODULE_NAME + "MODULE NAME "
-            + PREFIX_STUDENT_ID + "STUDENT ID "
+            + PREFIX_STUDENT_ID + "STUDENT ID\n"
             + "Example: " + COMMAND_WORD + " "
             + PREFIX_MODULE_NAME + "CS2103 "
             + PREFIX_STUDENT_ID + "A1234567A ";

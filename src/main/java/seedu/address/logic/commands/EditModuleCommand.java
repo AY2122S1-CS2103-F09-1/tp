@@ -24,11 +24,11 @@ public class EditModuleCommand extends EditCommand {
 
     public static final String MESSAGE_NOT_EDITED = "Both old module name and new module name must be provided";
 
-    public static final String MESSAGE_USAGE = COMMAND_WORD + ": Edits a module's name. Must provide "
-            + "old module name and the new module name "
+    public static final String MESSAGE_USAGE = COMMAND_WORD + ": Edits a module's name. Must provide both the "
+            + "old module name and the new module name\n"
             + "Parameters: "
             + PREFIX_MODULE_NAME + "OLD MODULE NAME "
-            + PREFIX_NEW_MODULE_NAME + "NEW MODULE NAME "
+            + PREFIX_NEW_MODULE_NAME + "NEW MODULE NAME\n"
             + "Example: " + COMMAND_WORD + " "
             + PREFIX_MODULE_NAME + "CS2103 "
             + PREFIX_NEW_MODULE_NAME + "CS2105 ";

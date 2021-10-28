@@ -35,18 +35,18 @@ public class EditTaskCommand extends EditCommand {
     public static final String MESSAGE_NOT_EDITED = "At least one field to edit must be provided.";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Edits a task's information. Must provide at least "
-            + "one editable field (name/deadline) to be edited. "
+            + "one editable field (name/deadline) to be edited.\n"
             + "Parameters: "
             + PREFIX_MODULE_NAME + "MODULE NAME "
             + PREFIX_TASK_ID + "TASK ID "
             + PREFIX_TASK_NAME + "TASK NAME "
-            + PREFIX_TASK_DEADLINE + "TASK DEADLINE "
+            + PREFIX_TASK_DEADLINE + "TASK DEADLINE\n"
             + "Example: " + COMMAND_WORD + " "
             + PREFIX_MODULE_NAME + "CS2103 "
             + PREFIX_TASK_ID + "T1 "
             + PREFIX_TASK_NAME + "V13 "
             + PREFIX_TASK_DEADLINE + "21 Oct 2021 "
-            + "(edits all fields)"
+            + "(edits all fields)\n"
             + "You may omit editable fields that are not being edited.";
 
     private static Logger logger = Logger.getLogger("Edit Task Logger");

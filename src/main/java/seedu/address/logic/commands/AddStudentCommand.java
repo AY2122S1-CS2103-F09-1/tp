@@ -28,7 +28,7 @@ public class AddStudentCommand extends AddCommand {
 
     public static final String COMMAND_WORD = "add student";
 
-    public static final String MESSAGE_USAGE = COMMAND_WORD + ": Adds a student to a module. "
+    public static final String MESSAGE_USAGE = COMMAND_WORD + ": Adds a student to a module.\n"
             + "Parameters: "
             + PREFIX_MODULE_NAME + "MODULE NAME "
             + PREFIX_STUDENT_ID + "STUDENT ID "

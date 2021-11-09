@@ -895,7 +895,7 @@ testers are expected to do more *exploratory* testing.
 
 ------------------------------------------
 
-### Effort
+## **Appendix: Effort**
 
 With AB3 as the baseline of comparison, our project is much more demanding. 
 AB3, as an address book application that manages contact details, has only one model which is a Person. 
